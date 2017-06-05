@@ -10,7 +10,7 @@ section{
   background-repeat: repeat;
   background-size: 25%;
   box-sizing: border-box;
-  height: 100%;
+  height: 100vh;
   padding-top: 3rem;
   text-align: center;
   width: 100%;
@@ -18,13 +18,13 @@ section{
 
 h1{
   color: #10882b;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 800;
 }
 .caja{
-  margin: 6rem auto;
-      display: flex;
-      justify-content: center;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
 }
 .ventana{
   background-color: #1297b3;
@@ -43,13 +43,13 @@ img{
 #after,
 #before{
   background-color: #009688;
+  border-radius: 50%;
   color: #063b86;
   font-size: 4rem;
+  height: 4rem;
   position: absolute;
   top: 21rem;
   width: 4rem;
-  border-radius: 50%;
-  height: 4rem;
 }
 
 #after{
@@ -60,16 +60,16 @@ img{
 }
 
 .botones{
+  bottom: 4rem;
+  left: 46%;
   position: absolute;
-    bottom: 5rem;
-    left: 46%;
 }
 .boton{
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
   background-color: #009688;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .boton:hover{
