@@ -10,7 +10,7 @@ section{
   background-repeat: repeat;
   background-size: 25%;
   box-sizing: border-box;
-  height: 99vh;
+  height: 100%;
   padding-top: 3rem;
   text-align: center;
   width: 100%;
@@ -21,13 +21,16 @@ h1{
   font-size: 3.5rem;
   font-weight: 800;
 }
-
+.caja{
+  margin: 6rem auto;
+      display: flex;
+      justify-content: center;
+}
 .ventana{
   background-color: #1297b3;
   border: 10px solid #063b86;
   border-radius: 20px;
   height: 19rem;
-  margin: 6rem auto;
   overflow: hidden;
   width: 35rem;
 }
@@ -35,4 +38,40 @@ h1{
 img{
   height: auto;
   width: 100%;
+}
+
+#after,
+#before{
+  background-color: #009688;
+  color: #063b86;
+  font-size: 4rem;
+  position: absolute;
+  top: 21rem;
+  width: 4rem;
+  border-radius: 50%;
+  height: 4rem;
+}
+
+#after{
+  left: 19rem;
+}
+#before{
+  right: 19rem;
+}
+
+.botones{
+  position: absolute;
+    bottom: 5rem;
+    left: 46%;
+}
+.boton{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #009688;
+}
+
+.boton:hover{
+  background-color: #063b86;
 }

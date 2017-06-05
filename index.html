@@ -6,17 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>S39-Carrusel</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/style.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <section class="container">
   <h1>Anime de Deportes</h1>
-  <div class="ventana" id="slider">
-    <div><img src="assets/image/kuroko.jpg" alt="Kuroko no Basket"></div>
-    <div><img src="assets/image/capitan.jpg" alt="Captain Tsubasa"></div>
-    <div><img src="assets/image/free.jpg" alt="Free"></div>
-    <div><img src="assets/image/haikyu.jpg" alt="Haikyū"></div>
-    <div><img src="assets/image/prince.jpeg" alt="The Prince of Tennis"></div>
+  <div class="caja">
+    <div id="after" >
+      <i class="icon-circle-left"></i>
+    </div>
+    <div class="ventana" id="slider">
+      <div id="1img"><img class="imagen" src="assets/image/kuroko.jpg" alt="Kuroko no Basket"></div>
+      <div id="2img"><img class="imagen" src="assets/image/capitan.jpg" alt="Captain Tsubasa"></div>
+      <div id="3img"><img class="imagen" src="assets/image/free.jpg" alt="Free"></div>
+      <div id="4img"><img class="imagen" src="assets/image/haikyu.jpg" alt="Haikyū"></div>
+      <div id="5img"><img class="imagen" src="assets/image/prince.jpeg" alt="The Prince of Tennis"></div>
+    </div>
+    <div id="before" class="icon-circle-right">
+      <i class="icon-circle-right:before"></i>
+    </div>
+  </div>
+  <div class="botones">
+    <div class="boton" id="1b"></div>
+    <div class="boton" id="2b"></div>
+    <div class="boton" id="3b"></div>
+    <div class="boton" id="4b"></div>
+    <div class="boton" id="5b"></div>
   </div>
 </section>
   <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
